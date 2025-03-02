@@ -1,0 +1,148 @@
+/* ベースのスタイル */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+
+/* サイドバーのスタイル */
+.sidebar {
+    position: fixed;
+    top: 20px;
+    left: 20px;
+    width: 200px;
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.sidebar h2 {
+    font-size: 1.5em;
+    margin-bottom: 20px;
+}
+
+.sidebar ul {
+    list-style: none;
+}
+
+.sidebar ul li {
+    margin-bottom: 10px;
+}
+
+.sidebar ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.2em;
+    transition: color 0.3s;
+}
+
+.sidebar ul li a:hover {
+    color: #a7be18; /* ホバー時の色 */
+}
+
+/* メインコンテンツ */
+main {
+    margin-left: 240px; /* サイドバー分の余白 */
+    padding: 20px;
+}
+
+/* ヘッダー */
+header {
+    text-align: center;
+    background-color: #4CAF50;
+    color: white;
+    padding: 20px;
+}
+
+header h1 {
+    font-size: 2.5em;
+}
+
+header p {
+    font-size: 1.2em;
+}
+
+/* 旅行詳細セクション */
+#trip-details {
+    background-color: #f4f4f4;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+#trip-details h2 {
+    font-size: 1.8em;
+    margin-bottom: 10px;
+}
+
+.detail-item {
+    margin-bottom: 15px;
+}
+
+.detail-item h3 {
+    font-size: 1.4em;
+    margin-bottom: 5px;
+}
+
+.detail-item p {
+    font-size: 1.2em;
+}
+
+/* 旅程セクション */
+#itinerary {
+    padding: 20px;
+    margin-top: 20px;
+}
+
+#itinerary h2 {
+    font-size: 1.8em;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+#itinerary ul {
+    list-style: none;
+}
+
+#itinerary li {
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 20px;
+}
+
+.time {
+    font-size: 1.4em;
+    font-weight: bold;
+    color: #4CAF50;
+    margin-right: 20px;
+    width: 150px;
+}
+
+.activity {
+    background-color: #efefef;
+    padding: 10px;
+    border-radius: 6px;
+    width: 100%;
+}
+
+.activity h3 {
+    font-size: 1.6em;
+    margin-bottom: 5px;
+}
+
+.activity p {
+    font-size: 1.2em;
+}
+
+/* フッター */
+footer {
+    text-align: center;
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
